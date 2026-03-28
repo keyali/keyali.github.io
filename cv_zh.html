@@ -70,6 +70,27 @@
         background-color: #e0d8c3; /* 鼠标放上去变暗一点 */
       }
 
+      /* 添加响应式设计 */
+      @media (max-width: 768px) {
+        body {
+          margin: 20px;
+          max-width: 100%;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .navbar {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+
     </style>
 
   </head>
